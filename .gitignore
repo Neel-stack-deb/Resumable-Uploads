@@ -1,0 +1,17 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.db
+data/temporary/*
+data/completed/*
+!data/temporary/.gitkeep
+!data/completed/.gitkeep
+examples/.upload_state.json
+*.egg-info/
+dist/
+build/
